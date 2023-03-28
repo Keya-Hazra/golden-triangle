@@ -46,7 +46,7 @@ const SliderPage = () => {
 		<Slider {...settings} className="z-30 w-full">
 			{sliderItems.map((item) => (
 				<div key={item.id} className="h-full">
-					<div>
+					<div >
 						<img src={item.img} alt="" />
 					</div>
 					

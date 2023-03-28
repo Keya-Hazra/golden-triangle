@@ -1,10 +1,16 @@
 import React from "react";
 
-
 const Navbar = () => {
 	return (
 		<>
 			<div className="flex items-center justify-between px-10 py-2">
+				<div>
+					<img
+						src="Logo.jpg"
+						alt=""
+						className="object-scale-down h-10 w-44 md:max-w-md xs:object-fill"
+					/>
+				</div>
 				<div className="text-3xl font-bold text-pink-500">
 					Golden-
 					<span className="text-3xl font-bold text-green-500">Triangle</span>
