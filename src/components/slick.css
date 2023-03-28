@@ -19,7 +19,7 @@
 
 .button__bar li button {
   border: none;
-  background: #EEEEEE;
+  background: #808080;
   color: transparent;
   cursor: pointer;
   display: block;
@@ -29,12 +29,12 @@
 }
 
 .button__bar li.slick-active button {
-  background-color: #CEC382;
+  background-color: #006600;
 }
 
 .button__bar li button:hover,
 .button__bar li button:focus {
-  background: #CEC382;
+  background: #006600;
   outline: 0;
 }
 

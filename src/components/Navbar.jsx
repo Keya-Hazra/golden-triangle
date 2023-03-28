@@ -1,6 +1,5 @@
 import React from "react";
-// import SearchIcon from "@mui/icons-material/Search";
-// import AddShoppingCart from "@mui/icons-material/AddShoppingCart";
+
 
 const Navbar = () => {
 	return (

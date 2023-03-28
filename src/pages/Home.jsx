@@ -1,18 +1,18 @@
 import React from "react";
 import Announcement from "../components/Announcement";
-import CustomSlider from "../components/CustomSlider";
 import Navbar from "../components/Navbar";
 import SliderPage from "../components/SliderPage";
-import Slider from "../components/SliderPage";
+import Footer from "./Footer";
+import Location from "./Location";
 
 const Home = () => {
 	return (
 		<div>
-			<Announcement/>
+			<Announcement />
 			<Navbar />
-			<SliderPage/>
-			{/* <Slider/> */}
-			{/* <CustomSlider/> */}
+			<SliderPage />
+			<Location />
+			<Footer/>
 		</div>
 	);
 };

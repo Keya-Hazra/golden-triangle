@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import ArrowRightOutlined from "@mui/icons-material/ArrowRightOutlined";
-import ArrowLeftOutlined from "@mui/icons-material/ArrowLeftOutlined";
 import { sliderItems } from "../utils/index";
 import "./slick.css";
-import Slider, { Settings } from "react-slick";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
@@ -47,7 +45,7 @@ const SliderPage = () => {
 	return (
 		<Slider {...settings} className="z-30 w-full">
 			{sliderItems.map((item) => (
-				<div key={item.id} className="lg:px-28 px-9 md:px-24">
+				<div key={item.id} className="h-full">
 					<div>
 						<img src={item.img} alt="" />
 					</div>
