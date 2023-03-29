@@ -19,14 +19,14 @@ const Footer = () => {
 						<div className="flex mt-4 space-x-6">
 							<Link
 								to="https://www.facebook.com/TripncareOTA/"
-								className="block hover:text-pink-500 animate-bounce"
+								className="block shadow-xl hover:text-pink-500 animate-bounce"
 								target="_blank"
 							>
 								<FaFacebook size={30} />
 							</Link>
 							<Link
 								to="https://www.youtube.com/watch?v=BSX2vpnU9x8"
-								className="block hover:text-pink-500 animate-bounce"
+								className="block shadow-xl hover:text-pink-500 animate-bounce"
 								target="_blank"
 							>
 								<FaYoutube size={30} />
