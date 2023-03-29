@@ -1,10 +1,5 @@
 import React from "react";
-import {
-	FaFacebook,
-	FaFacebookMessenger,
-	FaLinkedinIn,
-    FaYoutube
-} from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -22,17 +17,27 @@ const Footer = () => {
 					<div>
 						{" "}
 						<div className="flex mt-4 space-x-6">
-							<Link to="https://www.facebook.com/TripncareOTA/" className="block" target="_blank">
-								<FaFacebook size={20} />
+							<Link
+								to="https://www.facebook.com/TripncareOTA/"
+								className="block hover:text-pink-500 animate-bounce"
+								target="_blank"
+							>
+								<FaFacebook size={30} />
 							</Link>
-							<Link to="https://www.youtube.com/watch?v=BSX2vpnU9x8" className="block"target="_blank">
-								<FaYoutube size={20} />
+							<Link
+								to="https://www.youtube.com/watch?v=BSX2vpnU9x8"
+								className="block hover:text-pink-500 animate-bounce"
+								target="_blank"
+							>
+								<FaYoutube size={30} />
 							</Link>
-							{/* <Link to="/" className="block">
-								<FaTwitter size={20} />
-							</Link> */}
-							<Link to="https://www.linkedin.com/in/tripncare-travels-98b734175/" className="block" target="_blank">
-								<FaLinkedinIn size={20} />
+
+							<Link
+								to="https://www.linkedin.com/in/tripncare-travels-98b734175/"
+								className="block hover:text-pink-500 animate-bounce"
+								target="_blank"
+							>
+								<FaLinkedinIn size={30} />
 							</Link>
 						</div>
 					</div>
