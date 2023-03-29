@@ -7,13 +7,13 @@ const Footer = () => {
 		<div>
 			<div className="py-8 text-white bg-green-500 px-9 md:px-20 lg:px-28">
 				<div className="justify-between pb-8 border-b md:flex">
-					<div>
+				
 						<img
 							src="Logo.jpg"
 							alt=""
 							className="object-scale-down h-12 w-44 md:max-w-md xs:object-fill"
 						/>
-					</div>
+				
 					<div>
 						{" "}
 						<div className="flex mt-4 space-x-6">

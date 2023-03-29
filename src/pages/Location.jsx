@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Location = () => {
 	return (
-		<div className="py-20 bg-green-500/10">
+		<div className="py-20 bg-green-500/5">
 			<div className="pb-8">
 				<p className="text-xl font-semibold text-center text-green-500">
 					Start your journey
@@ -15,11 +15,11 @@ const Location = () => {
 			</div>
 
 			<div className="flex items-center justify-center space-x-6">
-				<div className="grid grid-cols-3 gap-3">
+				<div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {agra.map((item) => (
                         <div
                             key={item.id}
-                            className="bg-white rounded-md shadow-xl w-80 h-100"
+                            className="bg-white rounded-lg shadow-2xl w-80 h-100"
                         >
                             <div className="p-2 w-50">
                                 <img src={item.img} alt="" />

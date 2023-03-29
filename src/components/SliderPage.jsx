@@ -18,39 +18,36 @@ const SliderPage = () => {
 		initialSlide: 0,
 		arrows: false,
 		responsive: [
-		  {
-			breakpoint: 1024,
-			settings: {
-			  slidesToShow: 2,
-			  slidesToScroll: 1,
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				},
 			},
-		  },
-		  {
-			breakpoint: 768,
-			settings: {
-			  slidesToShow: 1,
-			  slidesToScroll: 1,
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
 			},
-		  },
 		],
-		dotsClass: 'button__bar',
+		dotsClass: "button__bar",
 		beforeChange: (next) => {
-		  if (next > 0) {
-			setIsPrevShow(true);
-		  } else {
-			setIsPrevShow(false);
-		  }
+			if (next > 0) {
+				setIsPrevShow(true);
+			} else {
+				setIsPrevShow(false);
+			}
 		},
-	  };
+	};
 	return (
 		<Slider {...settings} className="z-30 w-full">
 			{sliderItems.map((item) => (
-				<div key={item.id} className="">
-					<div className="" >
-						<img src={item.img} alt="" />
-					</div>
-					
-				</div>
+				<span key={item.id} >
+					<img src={item.img} alt="" />
+				</span>
 			))}
 		</Slider>
 	);
