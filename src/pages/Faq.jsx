@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Accordion from "../components/Accordion";
 import { faqData } from "../utils";
 
@@ -10,9 +9,9 @@ const Faq = () => {
 				frequently asked questions
 			</p>
 			<div className=" px-9">
-				{faqData.map((faq, index) => (
-					<div className="flex items-center justify-center">
-						<Accordion key={index} title={faq.title} body={faq.body} />
+				{faqData.map((faq) => (
+					<div  key={faq.id} className="flex items-center justify-center">
+						<Accordion title={faq.title} body={faq.body} />
 					</div>
 				))}
 				<div className="flex justify-center py-10">

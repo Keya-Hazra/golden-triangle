@@ -1,10 +1,6 @@
 import { useRef, useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
 
-// interface props {
-//   title: string | number;
-//   body: string | number | JSX.Element;
-// }
 
 function Accordion({ title, body }) {
 	const ref = useRef(null);

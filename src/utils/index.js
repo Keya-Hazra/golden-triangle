@@ -1,7 +1,7 @@
 export const sliderItems = [
 	{
 		id: 1,
-		img: "image/slider/carousel-1.jpg",
+		img: "image/carousel-1.jpg",
 	},
 	{
 		id: 2,
@@ -36,21 +36,21 @@ export const agra = [
 			"Founded in AD 1727 by Maharaja Sawai Jai Singh II, Jaipur, the capital of Rajasthan is popularly known as the Pink City. With broad avenues and spacious gardens, the city is steeped in history and culture. ",
 	},
 	{
-		id: 1,
+		id: 4,
 		img: "image/slider/jaypur.jpg",
 		location: "Amber Fort",
 		description:
 			"Agra is a city offering a discovery of the beautiful era. Agra has a rich history, reflected in its numerous monuments dotted in and around the city. ",
 	},
 	{
-		id: 2,
+		id: 5,
 		img: "image/slider/jaypur.jpg",
 		location: "Jantar Mantar ",
 		description:
 			"Delhi, city and national capital territory, north-central India. The city of Delhi actually consists of two components: Old Delhi, in the north, the historic city. ",
 	},
 	{
-		id: 3,
+		id: 6,
 		img: "image/slider/jaypur.jpg",
 		location: "Hawa Mahal",
 		description:

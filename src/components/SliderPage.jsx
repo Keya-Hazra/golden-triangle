@@ -4,6 +4,7 @@ import "./slick.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import ImageContainer from "./ImageContainer";
 
 const SliderPage = () => {
 	const [, setIsPrevShow] = useState(false);
@@ -45,9 +46,14 @@ const SliderPage = () => {
 	return (
 		<Slider {...settings} className="z-30 w-full">
 			{sliderItems.map((item) => (
-				<span key={item.id} >
-					<img src={item.img} alt="" />
-				</span>
+				<div key={item.id}>
+					<ImageContainer
+						src={item.img}
+						alt="golden triangle"
+						className="object-scale-down h-12 w-44 md:max-w-md xs:object-fill"
+					/>
+					{/* <img src= alt="" /> */}
+				</div>
 			))}
 		</Slider>
 	);

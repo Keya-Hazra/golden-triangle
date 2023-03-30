@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { MdEmail,MdLocationOn } from "react-icons/md";
 
 const Footer = () => {
 	return (
@@ -43,7 +44,10 @@ const Footer = () => {
 
 				<div className="hidden gap-4 py-4 pt-8 lg:visible lg:grid lg:grid-cols-3">
 					<div className="space-y-4">
-						<p>
+						<p className="flex space-x-2">
+							<span className="mt-1">
+								<MdLocationOn size={22} />
+							</span>
 							<span className="text-lg font-semibold ">Address:</span>
 						</p>
 						<p>
@@ -51,18 +55,20 @@ const Footer = () => {
 							India
 						</p>
 					</div>
-					
+
 					<div className="space-y-4">
-						<p>
+						<p className="flex space-x-2">
+							<span className="mt-1">
+								<MdEmail size={22}/>
+							</span>
 							<span className="text-lg font-semibold ">Email Address:</span>
 						</p>
 						<p>info@tripncare.com</p>
 					</div>
 					<div className="space-y-2">
-						<p className="text-xl font-bold">why Tripncare</p>
+						<p className="text-xl font-bold">why Tripncare?</p>
 						<p className="pb-4 text-sm font-normal leading-6 text-[#FFFFFF]/50">
-							Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-							amet sint. Velit officia consequat.
+						Placid Tripncare Travels Pvt Ltd is one of leading online travel company. We are a web platform providing a convenient way to search the best rates for airline tickets, hotels and other services. Searches can be carried out in multiple currencies. Our booking engine platform offers a vast inventory of travel products for your customers delivered through many options of distribution systems. 
 						</p>
 					</div>
 				</div>
