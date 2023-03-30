@@ -2,6 +2,7 @@ import React from "react";
 import Announcement from "../components/Announcement";
 import Navbar from "../components/Navbar";
 import SliderPage from "../components/SliderPage";
+import Faq from "./Faq";
 import Footer from "./Footer";
 import Location from "./Location";
 
@@ -12,7 +13,8 @@ const Home = () => {
 			<Navbar />
 			<SliderPage />
 			<Location />
-			<Footer/>
+			<Faq />
+			<Footer />
 		</div>
 	);
 };

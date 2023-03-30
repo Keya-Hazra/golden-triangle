@@ -7,15 +7,13 @@ const Footer = () => {
 		<div>
 			<div className="py-8 text-white bg-green-500 px-9 md:px-20 lg:px-28">
 				<div className="justify-between pb-8 border-b md:flex">
-				
-						<img
-							src="Logo.jpg"
-							alt=""
-							className="object-scale-down h-12 w-44 md:max-w-md xs:object-fill"
-						/>
-				
+					<img
+						src="Logo.jpg"
+						alt=""
+						className="object-scale-down h-12 w-44 md:max-w-md xs:object-fill"
+					/>
+
 					<div>
-						{" "}
 						<div className="flex mt-4 space-x-6">
 							<Link
 								to="https://www.facebook.com/TripncareOTA/"
@@ -43,33 +41,22 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="hidden gap-4 py-4 pt-8 lg:visible lg:grid lg:grid-cols-4">
+				<div className="hidden gap-4 py-4 pt-8 lg:visible lg:grid lg:grid-cols-3">
 					<div className="space-y-4">
-						<Link to="/">
-							<p className="text-sm font-normal text-[#FFFFFF]">Compliance</p>
-						</Link>
-						<a href="/#faq" className="block">
-							<p className="text-sm font-normal text-[#FFFFFF]">FAQ</p>
-						</a>
-						<a href="/#how-it-works" className="block">
-							<p className="text-sm font-normal text-[#FFFFFF]">How it works</p>
-						</a>
+						<p>
+							<span className="text-lg font-semibold ">Address:</span>
+						</p>
+						<p>
+							2nd Floor, Royd Street, Bata More, Kolkata 700016, West Bengal,
+							India
+						</p>
 					</div>
+					
 					<div className="space-y-4">
-						<a href="/#contact-us" className="block">
-							<p className="text-sm font-normal text-[#FFFFFF]">Contact Us</p>
-						</a>
-						<a href="/#about-us" className="block">
-							<p className="text-sm font-normal text-[#FFFFFF]">About Us</p>
-						</a>
-						<Link to="/" className="block">
-							<p className="text-sm font-normal text-[#FFFFFF]">Locator</p>
-						</Link>
-					</div>
-					<div className="space-y-4">
-						<Link to="/">
-							<p className="text-sm font-normal text-[#FFFFFF]">Terms of use</p>
-						</Link>
+						<p>
+							<span className="text-lg font-semibold ">Email Address:</span>
+						</p>
+						<p>info@tripncare.com</p>
 					</div>
 					<div className="space-y-2">
 						<p className="text-xl font-bold">why Tripncare</p>
